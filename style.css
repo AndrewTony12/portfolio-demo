@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-nav {
+  min-height: 80vh;
+  background: linear-gradient(90deg);
+  background: rgb(10, 11, 10);
+}
+
+a.nav-link {
+  font-weight: bold;
+  color: white !important;
+}
+
+a.nav-link:hover {
+  color: rgb(0, 255, 255) !important;
+  cursor: pointer;
+}
+
+.sec-title {
+  border-bottom: aqua solid 10px;
+  width: 250px;
+}
+
+.sec-content i {
+  /*font-size: 5rem;*/
+}
+
+.project {
+  background: black;
+  color: white;
+}
+
+.contact-icons {
+  background: black;
+  min-height: 30vh;
+  border-radius: 50px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  font-size: 3rem;
+}
+
+footer {
+  position: relative;
+}
+.up {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: black;
+  font-style: 2rem;
+  border: black solid 1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
